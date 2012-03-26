@@ -1,0 +1,41 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Just Me Again Down Here', cursive;
+}
+h1 {
+	font-size: 60px;
+}
+h3 {
+	font-size: 30px;
+}
+
+
+#content {
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+}
+input {
+	border: none;
+	border-bottom: 1px dotted #999;
+	font-size: 30px;
+}
+input:focus {
+	outline: none;
+}
+#tags {
+	margin-top: 10px;
+}
+.hashtag {
+	font-size: 25px;
+	color: white;
+	background: #0c5b9e;
+	display: inline-block;
+	padding-left: 5px; padding-right: 5px;
+	border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+
