@@ -20,6 +20,7 @@ input {
 	border: none;
 	border-bottom: 1px dotted #999;
 	font-size: 30px;
+	display: inline-block;
 }
 input:focus {
 	outline: none;
@@ -37,5 +38,17 @@ input:focus {
 	margin-right: 5px;
 	margin-bottom: 5px;
 }
-
-
+.message {
+	font-size: 20px;
+	display: inline-block;
+}
+#title_error {
+	color: #dd4343;
+}
+#submit_button {
+	color: #999;
+	cursor: pointer;
+}
+#submit_button:hover {
+	color: #0c4b9e;
+}
