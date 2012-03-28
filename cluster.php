@@ -28,11 +28,13 @@ while($row = mysql_fetch_row($tagRes)) {
 	<script type="text/javascript">
 	clusterTags = <?php echo json_encode($results); ?>;
 	clusterTitle = '<?php echo $clusterTitle; ?>';
+	clientId = '<?php echo $client_id; ?>';
 	</script>
 	<title><?php echo $clusterTitle; ?> | Clustergram</title>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript" src="js/instagram.js"></script>
+	<script type="text/javascript" src="js/cluster.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here' rel='stylesheet' type='text/css'>
         <link href="css/master.css" rel="stylesheet" type="text/css">
 </head>

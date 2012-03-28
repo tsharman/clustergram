@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	tags = new Array();
-	clusterTitle = "nan";
+	
+	
 	$("#submit_container").hide();
 	$("#submit_success_message").hide();
 	$(".message").hide();
