@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^c/(.+)/?$ /clustergram/cluster.php?clusterTitle=$1

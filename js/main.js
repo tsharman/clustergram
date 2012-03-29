@@ -13,6 +13,9 @@ $(document).ready(function() {
 	$("#cluster_tags").keypress(function(e) {
 		if(e.which == 13) {
 			var tagVal = $(this).val();
+			//removing spaces
+			tagVal = tagVal.split(' ').join('');
+
 			$("#tags").append('<div class="hashtag">' + tagVal + '</div>');
 			tags.push(tagVal);
 			$(this).val('');
