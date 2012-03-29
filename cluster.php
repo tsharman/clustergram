@@ -40,7 +40,7 @@ while($row = mysql_fetch_row($tagRes)) {
 </head>
 
 <body>
-	<div id="content">
+	<div id="content_cluster">
 		<h1><?php echo $clusterTitle; ?></h1>
 		<div id="photos">
 		</div>		
