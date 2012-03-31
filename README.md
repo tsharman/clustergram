@@ -1,4 +1,12 @@
-<h1>Hello!</h1>
+Clustergram
+===========
+Lets the user create "clusters" of instagram tags
+
+Requirements
+------------
+LAMP
+Instagram client id
+
 
 
 
